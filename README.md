@@ -5,19 +5,12 @@ To perform reconnaissance and open-source intelligence (OSINT) gathering on a ta
 
 ---
 
-## Scope
-- Target Domain: testphp.vulnweb.com  
-- Environment: Controlled and legal testing environment  
-
----
-
 ## Tools Used
 - theHarvester (Subdomain & Email Enumeration)
 - CMSeeK (CMS Detection)
 - wafw00f (WAF Detection)
 - Sn1per (Automated Reconnaissance)
 - Argus Information Gathering Framework
-- Maltego (OSINT Visualization)
 
 ---
 
@@ -42,7 +35,7 @@ Purpose:
 To collect publicly available data such as subdomains, hostnames, and email addresses associated with the target.
 
 ### Output
-(Add screenshot here)
+![theHarvester Output](screenshots/theHarvester.png)
 
 ---
 
@@ -55,7 +48,8 @@ Purpose:
 To identify the content management system (CMS) used by the target website.
 
 ### Output
-(Add screenshot here)
+![CMSeeK first Output](screenshots/CMSeeKfirst.png)
+![CMSeeK result Output](screenshots/CMSeeKresult.png)
 
 ### Observation
 The scan did not successfully detect a CMS. This may be due to:
@@ -74,7 +68,7 @@ Purpose:
 To detect the presence of a Web Application Firewall (WAF) protecting the target.
 
 ### Output
-(Add screenshot here)
+![Wafw00f Output](screenshots/Wafwoof.png)
 
 ---
 
@@ -87,7 +81,7 @@ Purpose:
 To perform automated scanning and gather detailed reconnaissance data.
 
 ### Output
-(Add screenshot here)
+![Sniper Output](screenshots/Sniper.png)
 
 ---
 
@@ -105,17 +99,9 @@ Subdomain Enumeration / Technology Detection
 Argus provided additional insights into the target infrastructure and confirmed findings from earlier tools such as subdomain presence and technology stack.
 
 ### Output
-(Add screenshot here)
- 
----
+![Argus first Output](screenshots/Argusfirst.png)
+![Argus result Output](screenshots/Argusresult.png)
 
-## 6. OSINT Mapping (Maltego)
-
-Purpose:
-To visualize relationships between domains, infrastructure, and other publicly available data.
-
-### Output
-(Add screenshot here)
 
 ---
 
