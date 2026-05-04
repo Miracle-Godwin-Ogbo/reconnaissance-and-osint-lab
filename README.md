@@ -35,7 +35,7 @@ Purpose:
 To collect publicly available data such as subdomains, hostnames, and email addresses associated with the target.
 
 ### Output
-![theHarvester Output](screenshots/theHarvester.png)
+![theHarvester Output](screenshots_theHarvester.png)
 
 ---
 
@@ -48,8 +48,8 @@ Purpose:
 To identify the content management system (CMS) used by the target website.
 
 ### Output
-![CMSeeK first Output](screenshots/CMSeeKfirst.png)
-![CMSeeK result Output](screenshots/CMSeeKresult.png)
+![CMSeeK first Output](screenshots_CMSeeK_first.png)
+![CMSeeK result Output](screenshots_CMSeeK_result.png)
 
 ### Observation
 The scan did not successfully detect a CMS. This may be due to:
@@ -68,7 +68,7 @@ Purpose:
 To detect the presence of a Web Application Firewall (WAF) protecting the target.
 
 ### Output
-![Wafw00f Output](screenshots/Wafwoof.png)
+![Wafw00f Output](screenshots_Wafwoof.png)
 
 ---
 
@@ -81,7 +81,7 @@ Purpose:
 To perform automated scanning and gather detailed reconnaissance data.
 
 ### Output
-![Sniper Output](screenshots/Sniper.png)
+![Sniper Output](screenshots_Sniper.png)
 
 ---
 
@@ -99,8 +99,8 @@ Subdomain Enumeration / Technology Detection
 Argus provided additional insights into the target infrastructure and confirmed findings from earlier tools such as subdomain presence and technology stack.
 
 ### Output
-![Argus first Output](screenshots/Argusfirst.png)
-![Argus result Output](screenshots/Argusresult.png)
+![Argus first Output](screenshots_Argus_first.png)
+![Argus result Output](screenshots_Argus_result.png)
 
 
 ---
