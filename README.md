@@ -136,3 +136,8 @@ Exposure of publicly available information can assist attackers in:
 ## Conclusion
 
 This lab demonstrates how reconnaissance tools can be used to gather critical information about a target before launching an attack. Effective management of publicly available data and proper security controls are essential in reducing the risk of exploitation.
+
+## Disclaimer
+
+All activities, scans, exploitations, and simulations demonstrated in this repository were conducted in a controlled lab environment for educational and ethical purposes only. The target systems used were intentionally vulnerable systems owned for testing. Unauthorized testing against real-world systems is illegal and unethical.
+
