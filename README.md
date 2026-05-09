@@ -29,7 +29,10 @@ The reconnaissance process was carried out in multiple phases:
 ## 1. Information Gathering (theHarvester)
 
 Command:
+
+```
 theHarvester -d testphp.vulnweb.com -b all
+```
 
 Purpose:
 To collect publicly available data such as subdomains, hostnames, and email addresses associated with the target.
@@ -42,7 +45,10 @@ To collect publicly available data such as subdomains, hostnames, and email addr
 ## 2. CMS Detection (CMSeeK)
 
 Target:
+
+ ```
 https://testphp.vulnweb.com
+```
 
 Purpose:
 To identify the content management system (CMS) used by the target website.
@@ -62,7 +68,10 @@ The scan did not successfully detect a CMS. This may be due to:
 ## 3. WAF Detection (wafw00f)
 
 Command:
+
+```
 wafw00f https://testphp.vulnweb.com
+```
 
 Purpose:
 To detect the presence of a Web Application Firewall (WAF) protecting the target.
@@ -75,7 +84,10 @@ To detect the presence of a Web Application Firewall (WAF) protecting the target
 ## 4. Automated Reconnaissance (Sn1per)
 
 Command:
+
+```
 sniper -t testphp.vulnweb.com
+```
 
 Purpose:
 To perform automated scanning and gather detailed reconnaissance data.
